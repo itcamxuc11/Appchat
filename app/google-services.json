@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "628978778357",
+    "firebase_url": "https://appchat-master-4a36b.firebaseio.com",
+    "project_id": "appchat-master-4a36b",
+    "storage_bucket": "appchat-master-4a36b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628978778357:android:827782cd01a9b5f5",
+        "android_client_info": {
+          "package_name": "com.uiresource.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628978778357-lrflee8tqg9epjg14clla9nhet2itlho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uiresource.appchat",
+            "certificate_hash": "a97318ecf792c6429bf304fed337dfb6243339c4"
+          }
+        },
+        {
+          "client_id": "628978778357-74g9r0rteqgekbjtqdiehe4be1dadr2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDetII74_XkySX74F26RD_t8GnzixF5sBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628978778357-74g9r0rteqgekbjtqdiehe4be1dadr2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

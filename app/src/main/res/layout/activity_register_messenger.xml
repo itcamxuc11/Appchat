@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uiresource.appchat.RegisterMessenger"
+    android:fitsSystemWindows="true">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/space20">
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Đăng kí tài khoản"
+                android:layout_centerHorizontal="true"
+                style="@style/h2"
+                android:textAppearance="@style/Light"/>
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_below="@id/tv_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:text="Tên đăng nhập"
+                android:layout_marginTop="@dimen/space20"
+                style="@style/EditText"
+                android:textAppearance="@style/ExtraLight"/>
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_below="@id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_border_text"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="Username"
+                android:inputType="text"
+                style="@style/EditText"
+                android:focusable="true"
+                android:textAppearance="@style/ExtraLight"/>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_below="@id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:text="Email"
+                android:layout_marginTop="@dimen/space20"
+                style="@style/EditText"
+                android:textAppearance="@style/ExtraLight"/>
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_below="@id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_border_text"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                style="@style/EditText"
+                android:focusable="true"
+                android:textAppearance="@style/ExtraLight"/>
+            <TextView
+                android:id="@+id/tv_password"
+                android:layout_below="@id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:text="Mật khẩu"
+                android:layout_marginTop="@dimen/space20"
+                style="@style/EditText"
+                android:textAppearance="@style/ExtraLight"/>
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_below="@id/tv_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_border_text"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                style="@style/EditText"
+                android:focusable="true"
+                android:textAppearance="@style/ExtraLight"/>
+
+            <Button
+                android:id="@+id/btnRegiter"
+                style="@style/ButtonPink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_password"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/bg_rounded_corners"
+                android:text="Đăng kí"
+                android:textAppearance="@style/ExtraLight" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
